@@ -19,8 +19,8 @@ class Mail:
     def __init__(self):
         self.port = 465
         self.smtp_server_domain_name = "smtp.gmail.com"
-        self.sender_mail = "residencyjobcheckerbot@gmail.com"
-        self.password = "Looking4Surgery&OtherResidencyPositions"
+        self.sender_mail = "<Desired Email>"
+        self.password = "<Password>"
 
     def send(self, emails, subject, content):
         ssl_context = ssl.create_default_context()
